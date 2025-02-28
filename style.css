@@ -113,20 +113,13 @@ footer {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.1s ease;
 }
 
 .socials a:hover {
-    text-decoration: underline;
-}
-
-@keyframes roll {
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 40px rgb(172, 78, 78);
+    background-color: rgba(172, 78, 78, 0.281);
 }
 
 @media (max-width: 768px) {
